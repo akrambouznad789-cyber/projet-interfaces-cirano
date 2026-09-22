@@ -1,0 +1,15 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+
+# Données brutes externes (voir data/raw/README.md pour les obtenir)
+data/raw/*
+!data/raw/README.md
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
