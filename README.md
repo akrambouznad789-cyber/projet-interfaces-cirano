@@ -15,9 +15,10 @@ se compose par type de marchandise.
 ## Sommaire
 
 1. [Données](docs/donnees.md) — les tables de référence et dérivées, et la codification qualité R/C/E
-2. [Méthodologie](docs/methodologie.md) — des routes aux interfaces, du DJMA à la valeur par camion
-3. [Résultats](docs/resultats.md) — les 4 graphiques et leur interprétation
-4. [Limites et pistes explorées](docs/limites.md) — la piste cartographique abandonnée, la couverture temporelle, les sources manquantes
+2. [Base de données](docs/base_de_donnees.md) — le schéma Access et les 5 requêtes SQL qui produisent les tables dérivées
+3. [Méthodologie](docs/methodologie.md) — des routes aux interfaces, du DJMA à la valeur par camion
+4. [Résultats](docs/resultats.md) — les 4 graphiques et leur interprétation
+5. [Limites et pistes explorées](docs/limites.md) — la piste cartographique abandonnée, la couverture temporelle, les sources manquantes
 
 ## Pipeline
 
@@ -68,6 +69,7 @@ les exporte en PNG haute résolution dans `figures/`.
 │   ├── raw/                # sources externes non versionnées (voir raw/README.md)
 │   ├── master/              # tables de référence : interfaces, segments, DJMA brut
 │   └── processed/           # tables dérivées : agrégations et résultat final
+├── sql/                     # requêtes Access extraites (schéma → tables dérivées)
 ├── src/
 │   └── figures/
 │       └── graphiques_transport.R

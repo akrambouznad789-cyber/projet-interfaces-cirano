@@ -17,6 +17,9 @@ Une **interface** (ex. `ON_QC`) est la frontière entre deux provinces. Chaque i
 traversée par plusieurs **segments** : les routes précises qui la franchissent. Par exemple,
 `ON_QC` regroupe 6 segments (autoroute 401/A-20, autoroute 417/A-40, route 148, etc.).
 
+Ces deux familles de tables proviennent d'une base **Microsoft Access** interrogée en SQL — voir
+[Base de données](base_de_donnees.md) pour le schéma complet et les 5 requêtes.
+
 ## Tables dérivées (`data/processed/`)
 
 | Fichier | Rôle | Lignes |
@@ -48,4 +51,4 @@ Les comptages provinciaux et le tableau StatCan qui alimentent ces tables sont d
 avec citations exactes, dans [`data/raw/README.md`](../data/raw/README.md).
 
 ---
-[← Retour au sommaire](../README.md) · [Suite : Méthodologie →](methodologie.md)
+[← Retour au sommaire](../README.md) · [Suite : Base de données →](base_de_donnees.md)
